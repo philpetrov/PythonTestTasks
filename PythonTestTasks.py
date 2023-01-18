@@ -2,7 +2,6 @@
 #{ "name": "John", "notes": [3, 5, 4] } and returns
 #a dictionary of objects like { "name": "John", "top_note": 5 }.
 
-
 def topNote (nameOfYourArray, yourArray):
     # 0 step - is to put values into dictionary a and print it
     a = {"name": nameOfYourArray, "notes": yourArray}
@@ -51,3 +50,7 @@ falseCond()
 #*
 multLamda = lambda a, b: a * b;
 print (multLamda(3, 5))
+
+# 5. Create a class named Person, use the __init__() 
+#function to assign values for name and age:
+def __init__(person : name, person : age) 
